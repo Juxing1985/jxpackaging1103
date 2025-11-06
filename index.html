@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,72 +8,80 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
+            background: #ffffff;
+            color: #333;
         }
         header {
-            background-color: #0044cc;
-            color: #ffffff;
+            background: #67D2C2; /* 主色 */
             padding: 20px;
             text-align: center;
+            color: #fff;
+            font-size: 26px;
+            font-weight: bold;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #e3e3e3;
-            padding: 10px 0;
+            background: #FFDE81; /* 辅色 */
+            padding: 12px;
         }
         nav a {
-            margin: 0 15px;
+            color: #333;
             text-decoration: none;
-            color: #0044cc;
+            margin: 0 15px;
             font-weight: bold;
+            font-size: 18px;
         }
         nav a:hover {
-            text-decoration: underline;
+            color: #67D2C2; /* 悬停改为主色 */
         }
-        main {
-            padding: 20px;
+        .banner {
+            background: #67D2C2;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 22px;
+        }
+        .content {
+            padding: 30px;
             text-align: center;
         }
         footer {
-            background-color: #0044cc;
-            color: #ffffff;
+            background: #FFDE81;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #555;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to JX Packaging</h1>
-        <p>Your trusted partner for innovative packaging solutions</p>
-    </header>
 
-    <nav>
-        <a href="about.html">About Us</a>
-        <a href="products.html">Our Products</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+<header>JX Packaging</header>
 
-    <main>
-        <h2>Innovative, Eco-Friendly, and Reliable</h2>
-        <p>We specialize in:</p>
-        <ul>
-            <li>Corrugated Cardboard</li>
-            <li>Paper Edge Protectors</li>
-            <li>Honeycomb Panels</li>
-            <li>Folding Cartons</li>
-            <li>Paper Pallets</li>
-        </ul>
-    </main>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-    <footer>
-        <p>&copy; 2025 JX Packaging. All rights reserved.</p>
-    </footer>
+<section class="banner">
+    High-Quality Paper Packaging Material Manufacturer Since 2002
+</section>
+
+<section class="content">
+    <h2>Professional Corrugated Packaging Supplier</h2>
+    <p>We provide corrugated rolls, edge protectors, folding carton and honeycomb board to support your packaging needs.</p>
+</section>
+
+<footer>
+    © 2024 JX Packaging. All Rights Reserved.
+</footer>
+
 </body>
 </html>
