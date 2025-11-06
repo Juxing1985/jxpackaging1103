@@ -1,5 +1,4 @@
-
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +13,7 @@
             color: #333;
         }
         header {
-            background: #67D2C2; /* 主色 */
+            background: #67D2C2;
             padding: 20px;
             text-align: center;
             color: #fff;
@@ -24,7 +23,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background: #FFDE81; /* 辅色 */
+            background: #FFDE81;
             padding: 12px;
         }
         nav a {
@@ -35,7 +34,7 @@
             font-size: 18px;
         }
         nav a:hover {
-            color: #67D2C2; /* 悬停改为主色 */
+            color: #67D2C2;
         }
         .banner {
             background: #67D2C2;
@@ -55,6 +54,22 @@
             margin-top: 30px;
             font-size: 14px;
             color: #555;
+        }
+
+        /* ✅ 图片样式放到了正确位置 */
+        .home-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+            gap: 15px;
+        }
+        .home-images img {
+            width: 100%;
+            max-width: 360px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
     </style>
 </head>
@@ -80,7 +95,7 @@
     <img src="IMG_9752.jpeg" alt="Main Product Image 1">
     <img src="IMG_9753.jpeg" alt="Main Product Image 2">
 </div>
-   
+
 <section class="content">
     <h2>Professional Corrugated Packaging Supplier</h2>
     <p>We provide corrugated rolls, edge protectors, folding carton and honeycomb board to support your packaging needs.</p>
@@ -92,18 +107,3 @@
 
 </body>
 </html>
-.home-images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px auto;
-    gap: 15px;
-}
-
-.home-images img {
-    width: 90%;
-    max-width: 420px; /* 限制桌面端最大显示宽度 */
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
